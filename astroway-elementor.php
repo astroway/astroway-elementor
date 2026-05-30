@@ -49,10 +49,3 @@ function astroway_elementor_core_notice() {
 		esc_html__( 'AstroWay for Elementor needs the AstroWay plugin (0.6.4 or newer) active.', 'astroway-elementor' )
 	);
 }
-
-add_action(
-	'init',
-	static function () {
-		load_plugin_textdomain( 'astroway-elementor', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-	}
-);
