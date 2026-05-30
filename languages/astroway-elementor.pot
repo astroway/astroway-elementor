@@ -1,0 +1,226 @@
+# Copyright (C) 2026 AstroWay
+# This file is distributed under the MIT.
+msgid ""
+msgstr ""
+"Project-Id-Version: AstroWay for Elementor 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astroway-elementor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-05-30T09:01:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: astroway-elementor\n"
+
+#. Plugin Name of the plugin
+#: astroway-elementor.php
+msgid "AstroWay for Elementor"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: astroway-elementor.php
+msgid "https://github.com/astroway/astroway-elementor"
+msgstr ""
+
+#. Description of the plugin
+#: astroway-elementor.php
+msgid "Elementor widgets for AstroWay astrology — natal chart, Human Design bodygraph, daily horoscope, Tarot, moon phase, today in sky, fortune cookie. Requires the AstroWay plugin."
+msgstr ""
+
+#. Author of the plugin
+#: astroway-elementor.php
+#: includes/class-loader.php:27
+msgid "AstroWay"
+msgstr ""
+
+#. Author URI of the plugin
+#: astroway-elementor.php
+msgid "https://astroway.info"
+msgstr ""
+
+#: astroway-elementor.php:49
+msgid "AstroWay for Elementor needs the AstroWay plugin (0.6.4 or newer) active."
+msgstr ""
+
+#: includes/widget-bodygraph.php:24
+msgid "AstroWay Human Design Bodygraph"
+msgstr ""
+
+#: includes/widget-bodygraph.php:35
+#: includes/widget-natal.php:31
+msgid "Birth data"
+msgstr ""
+
+#: includes/widget-bodygraph.php:42
+#: includes/widget-natal.php:39
+msgid "Date (YYYY-MM-DD)"
+msgstr ""
+
+#: includes/widget-bodygraph.php:49
+#: includes/widget-natal.php:47
+msgid "Time (HH:MM)"
+msgstr ""
+
+#: includes/widget-bodygraph.php:56
+#: includes/widget-natal.php:55
+#: includes/widget-today-in-sky.php:69
+msgid "Latitude"
+msgstr ""
+
+#: includes/widget-bodygraph.php:63
+#: includes/widget-natal.php:63
+#: includes/widget-today-in-sky.php:77
+msgid "Longitude"
+msgstr ""
+
+#: includes/widget-bodygraph.php:70
+#: includes/widget-natal.php:71
+#: includes/widget-today-in-sky.php:85
+msgid "IANA timezone"
+msgstr ""
+
+#: includes/widget-bodygraph.php:77
+#: includes/widget-fortune-cookie.php:65
+#: includes/widget-tarot-card.php:55
+#: includes/widget-today-in-sky.php:93
+msgid "Language"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:24
+msgid "AstroWay Daily Horoscope"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:31
+#: includes/widget-fortune-cookie.php:35
+#: includes/widget-moon-phase.php:35
+#: includes/widget-tarot-card.php:35
+msgid "Content"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:38
+msgid "Zodiac sign"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:41
+msgid "— pick a sign —"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:42
+#: includes/widget-fortune-cookie.php:46
+msgid "Aries"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:43
+#: includes/widget-fortune-cookie.php:47
+msgid "Taurus"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:44
+#: includes/widget-fortune-cookie.php:48
+msgid "Gemini"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:45
+#: includes/widget-fortune-cookie.php:49
+msgid "Cancer"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:46
+#: includes/widget-fortune-cookie.php:50
+msgid "Leo"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:47
+#: includes/widget-fortune-cookie.php:51
+msgid "Virgo"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:48
+#: includes/widget-fortune-cookie.php:52
+msgid "Libra"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:49
+#: includes/widget-fortune-cookie.php:53
+msgid "Scorpio"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:50
+#: includes/widget-fortune-cookie.php:54
+msgid "Sagittarius"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:51
+#: includes/widget-fortune-cookie.php:55
+msgid "Capricorn"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:52
+#: includes/widget-fortune-cookie.php:56
+msgid "Aquarius"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:53
+#: includes/widget-fortune-cookie.php:57
+msgid "Pisces"
+msgstr ""
+
+#: includes/widget-daily-horoscope.php:61
+#: includes/widget-moon-phase.php:50
+#: includes/widget-natal.php:79
+msgid "Language (2-letter)"
+msgstr ""
+
+#: includes/widget-fortune-cookie.php:24
+msgid "AstroWay Fortune Cookie"
+msgstr ""
+
+#: includes/widget-fortune-cookie.php:42
+msgid "Zodiac sign (optional)"
+msgstr ""
+
+#: includes/widget-fortune-cookie.php:45
+msgid "— any —"
+msgstr ""
+
+#: includes/widget-moon-phase.php:24
+msgid "AstroWay Moon Phase"
+msgstr ""
+
+#: includes/widget-moon-phase.php:42
+msgid "Date (YYYY-MM-DD, blank = today)"
+msgstr ""
+
+#: includes/widget-natal.php:24
+msgid "AstroWay Natal Chart"
+msgstr ""
+
+#: includes/widget-tarot-card.php:24
+msgid "AstroWay Daily Tarot"
+msgstr ""
+
+#: includes/widget-tarot-card.php:42
+msgid "Deck"
+msgstr ""
+
+#: includes/widget-today-in-sky.php:24
+msgid "AstroWay Today in Sky"
+msgstr ""
+
+#: includes/widget-today-in-sky.php:35
+msgid "Sections"
+msgstr ""
+
+#: includes/widget-today-in-sky.php:42
+msgid "Show Sun/Moon zodiac signs"
+msgstr ""
+
+#: includes/widget-today-in-sky.php:51
+msgid "Show Mercury retrograde indicator"
+msgstr ""
+
+#: includes/widget-today-in-sky.php:60
+msgid "Show planetary hour (requires location)"
+msgstr ""
