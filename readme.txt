@@ -1,11 +1,11 @@
 === AstroWay for Elementor ===
 Contributors: astrowayteam
 Tags: elementor, astrology, horoscope, natal chart, tarot
-Requires at least: 5.0
-Tested up to: 7.0
+Requires at least: 6.5
+Tested up to: 7.1
 Requires PHP: 7.4
 Requires Plugins: astroway, elementor
-Stable tag: 0.1.0
+Stable tag: 0.1.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -34,6 +34,10 @@ This is an addon: it requires the free **AstroWay** plugin (0.6.4 or newer) and 
 3. Edit any page with Elementor — the AstroWay widgets appear under the **AstroWay** category in the widget panel.
 
 == Changelog ==
+
+= 0.1.1 =
+* Tested against WordPress 7.1: all seven widgets register with Elementor, and the five backed by a live endpoint render on the front end. Today in sky and Fortune cookie stay blank, as they have since 0.1.0, because the service behind them is not published yet.
+* Housekeeping: the minimum WordPress version now states 6.5, the release that added the "Requires Plugins" header this add-on depends on.
 
 = 0.1.0 =
 * Initial release. Seven Elementor widgets wrapping AstroWay core shortcodes (natal, bodygraph, daily horoscope, Tarot, moon phase, today in sky, fortune cookie).

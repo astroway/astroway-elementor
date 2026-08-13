@@ -3,8 +3,8 @@
  * Plugin Name:       AstroWay for Elementor
  * Plugin URI:        https://github.com/astroway/astroway-elementor
  * Description:       Elementor widgets for AstroWay astrology — natal chart, Human Design bodygraph, daily horoscope, Tarot, moon phase, today in sky, fortune cookie. Requires the AstroWay plugin.
- * Version:           0.1.0
- * Requires at least: 5.0
+ * Version:           0.1.1
+ * Requires at least: 6.5
  * Requires PHP:      7.4
  * Requires Plugins:  astroway, elementor
  * Author:            AstroWay
