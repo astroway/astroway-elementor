@@ -2,14 +2,14 @@
 # This file is distributed under the MIT.
 msgid ""
 msgstr ""
-"Project-Id-Version: AstroWay for Elementor 0.1.0\n"
+"Project-Id-Version: AstroWay for Elementor 0.1.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astroway-elementor\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-30T09:01:24+00:00\n"
+"POT-Creation-Date: 2026-08-14T06:40:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: astroway-elementor\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #. Description of the plugin
 #: astroway-elementor.php
-msgid "Elementor widgets for AstroWay astrology — natal chart, Human Design bodygraph, daily horoscope, Tarot, moon phase, today in sky, fortune cookie. Requires the AstroWay plugin."
+msgid "Elementor widgets for AstroWay astrology: natal chart, Human Design bodygraph, daily horoscope, Tarot, moon phase, today in sky, fortune cookie. Requires the AstroWay plugin."
 msgstr ""
 
 #. Author of the plugin
@@ -104,7 +104,7 @@ msgid "Zodiac sign"
 msgstr ""
 
 #: includes/widget-daily-horoscope.php:41
-msgid "— pick a sign —"
+msgid "Pick a sign"
 msgstr ""
 
 #: includes/widget-daily-horoscope.php:42
@@ -182,7 +182,7 @@ msgid "Zodiac sign (optional)"
 msgstr ""
 
 #: includes/widget-fortune-cookie.php:45
-msgid "— any —"
+msgid "Any"
 msgstr ""
 
 #: includes/widget-moon-phase.php:24

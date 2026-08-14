@@ -5,7 +5,7 @@ Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
 Requires Plugins: astroway, elementor
-Stable tag: 0.1.1
+Stable tag: 0.1.2
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -23,17 +23,21 @@ Adds seven AstroWay widgets to the Elementor editor, grouped under an **AstroWay
 * Today in Sky
 * Fortune Cookie
 
-Each widget wraps the matching AstroWay shortcode, so output and rate limits behave exactly like the core plugin — drag a widget onto the canvas, fill the controls, and the chart renders in the Elementor preview.
+Each widget wraps the matching AstroWay shortcode, so output and rate limits behave exactly like the core plugin. Drag a widget onto the canvas, fill the controls, and the chart renders in the Elementor preview.
 
-This is an addon: it requires the free **AstroWay** plugin (0.6.4 or newer) and **Elementor** both active. It adds no API calls of its own — rendering, caching, and tier handling stay in the core plugin.
+This is an addon: it requires the free **AstroWay** plugin (0.6.4 or newer) and **Elementor** both active. It adds no API calls of its own: rendering, caching, and tier handling stay in the core plugin.
 
 == Installation ==
 
 1. Install and activate **AstroWay** (the core plugin) and **Elementor**.
 2. Install and activate **AstroWay for Elementor**.
-3. Edit any page with Elementor — the AstroWay widgets appear under the **AstroWay** category in the widget panel.
+3. Edit any page with Elementor and the AstroWay widgets appear under the **AstroWay** category in the widget panel.
 
 == Changelog ==
+
+= 0.1.2 =
+* The two placeholder options in the widget controls now read "Pick a sign" and "Any" instead of being wrapped in dashes.
+* Prose in the plugin description and this file rewritten without em dashes.
 
 = 0.1.1 =
 * Tested against WordPress 7.1: all seven widgets register with Elementor, and the five backed by a live endpoint render on the front end. Today in sky and Fortune cookie stay blank, as they have since 0.1.0, because the service behind them is not published yet.

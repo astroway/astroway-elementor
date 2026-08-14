@@ -38,7 +38,7 @@ class WidgetDailyHoroscope extends WidgetBase {
 				'label'   => __( 'Zodiac sign', 'astroway-elementor' ),
 				'type'    => \Elementor\Controls_Manager::SELECT,
 				'options' => [
-					''            => __( '— pick a sign —', 'astroway-elementor' ),
+					''            => __( 'Pick a sign', 'astroway-elementor' ),
 					'aries'       => __( 'Aries', 'astroway-elementor' ),
 					'taurus'      => __( 'Taurus', 'astroway-elementor' ),
 					'gemini'      => __( 'Gemini', 'astroway-elementor' ),

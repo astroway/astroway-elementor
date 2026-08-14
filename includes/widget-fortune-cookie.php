@@ -42,7 +42,7 @@ class WidgetFortuneCookie extends WidgetBase {
 				'label'   => __( 'Zodiac sign (optional)', 'astroway-elementor' ),
 				'type'    => \Elementor\Controls_Manager::SELECT,
 				'options' => [
-					''            => __( '— any —', 'astroway-elementor' ),
+					''            => __( 'Any', 'astroway-elementor' ),
 					'aries'       => __( 'Aries', 'astroway-elementor' ),
 					'taurus'      => __( 'Taurus', 'astroway-elementor' ),
 					'gemini'      => __( 'Gemini', 'astroway-elementor' ),

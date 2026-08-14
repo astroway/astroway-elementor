@@ -1,6 +1,6 @@
 <?php
 /**
- * Shared base class for AstroWay Elementor widgets — keeps icon/category/
+ * Shared base class for AstroWay Elementor widgets. Keeps icon/category/
  * keywords boilerplate in one place. Subclasses override get_name(),
  * get_title(), register_controls(), and render_shortcode_atts().
  *
