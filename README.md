@@ -1,11 +1,10 @@
 # AstroWay for Elementor
 
-Elementor widgets for [AstroWay](https://astroway.info) astrology. Adds seven widgets to the
+Elementor widgets for [AstroWay](https://astroway.info) astrology. Adds five widgets to the
 Elementor editor under an **AstroWay** category — each wraps the matching AstroWay core shortcode,
 so output, caching, and rate limits behave exactly like the core plugin.
 
-**Widgets:** Natal Chart · Human Design Bodygraph · Daily Horoscope · Daily Tarot · Moon Phase ·
-Today in Sky · Fortune Cookie.
+**Widgets:** Natal Chart · Human Design Bodygraph · Daily Horoscope · Daily Tarot · Moon Phase.
 
 ## Requirements
 

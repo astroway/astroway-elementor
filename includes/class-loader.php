@@ -30,6 +30,11 @@ class Loader {
 		);
 	}
 
+	/**
+	 * No Today in Sky or Fortune Cookie: the api has no route behind either
+	 * shortcode, so both widgets rendered nothing for visitors. They come
+	 * back once the core plugin renders them again.
+	 */
 	public static function register_widgets( $widgets_manager ): void {
 		require_once __DIR__ . '/widget-base.php';
 		require_once __DIR__ . '/widget-natal.php';
@@ -37,16 +42,12 @@ class Loader {
 		require_once __DIR__ . '/widget-moon-phase.php';
 		require_once __DIR__ . '/widget-bodygraph.php';
 		require_once __DIR__ . '/widget-tarot-card.php';
-		require_once __DIR__ . '/widget-today-in-sky.php';
-		require_once __DIR__ . '/widget-fortune-cookie.php';
 
 		$widgets_manager->register( new WidgetNatal() );
 		$widgets_manager->register( new WidgetDailyHoroscope() );
 		$widgets_manager->register( new WidgetMoonPhase() );
 		$widgets_manager->register( new WidgetBodygraph() );
 		$widgets_manager->register( new WidgetTarotCard() );
-		$widgets_manager->register( new WidgetTodayInSky() );
-		$widgets_manager->register( new WidgetFortuneCookie() );
 	}
 
 	public static function category(): string {

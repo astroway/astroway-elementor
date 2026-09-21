@@ -5,7 +5,7 @@ Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
 Requires Plugins: astroway, elementor
-Stable tag: 0.1.2
+Stable tag: 0.1.3
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
@@ -13,15 +13,13 @@ Elementor widgets for AstroWay astrology: natal chart, Human Design, horoscope, 
 
 == Description ==
 
-Adds seven AstroWay widgets to the Elementor editor, grouped under an **AstroWay** category:
+Adds five AstroWay widgets to the Elementor editor, grouped under an **AstroWay** category:
 
 * Natal Chart
 * Human Design Bodygraph
 * Daily Horoscope
 * Daily Tarot
 * Moon Phase
-* Today in Sky
-* Fortune Cookie
 
 Each widget wraps the matching AstroWay shortcode, so output and rate limits behave exactly like the core plugin. Drag a widget onto the canvas, fill the controls, and the chart renders in the Elementor preview.
 
@@ -34,6 +32,9 @@ This is an addon: it requires the free **AstroWay** plugin (0.6.4 or newer) and 
 3. Edit any page with Elementor and the AstroWay widgets appear under the **AstroWay** category in the widget panel.
 
 == Changelog ==
+
+= 0.1.3 =
+* Removed: the Today in Sky and Fortune Cookie widgets. Neither ever rendered anything, because the service behind them was never published. A page that still carries one shows nothing in its place, as before.
 
 = 0.1.2 =
 * The two placeholder options in the widget controls now read "Pick a sign" and "Any" instead of being wrapped in dashes.
