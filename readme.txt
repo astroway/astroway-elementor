@@ -5,13 +5,17 @@ Requires at least: 6.5
 Tested up to: 7.1
 Requires PHP: 7.4
 Requires Plugins: astroway, elementor
-Stable tag: 0.1.3
+Stable tag: 0.2.0
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
-Elementor widgets for AstroWay astrology: natal chart, Human Design, horoscope, Tarot, moon phase, and more.
+No longer needed: AstroWay 2.5 and newer has every widget in Elementor itself. Deactivate and delete this addon.
 
 == Description ==
+
+**This addon is retired.** Since version 2.5 the free AstroWay plugin adds all of its widgets to Elementor on its own, together with Beaver Builder and WPBakery. With AstroWay 2.5 or newer active, this addon does nothing: deactivate and delete it. Pages built with it keep their widgets, because the core plugin registers them under the same names.
+
+Below is what the addon did for older versions of AstroWay.
 
 Adds five AstroWay widgets to the Elementor editor, grouped under an **AstroWay** category:
 
@@ -33,6 +37,9 @@ This is an addon: it requires the free **AstroWay** plugin (0.6.4 or newer) and 
 
 == Changelog ==
 
+= 0.2.0 =
+* Retired: AstroWay 2.5 and newer registers every widget in Elementor itself, under the same names. With it active this addon stays idle and shows a notice that it can be deleted. Pages keep their widgets.
+
 = 0.1.3 =
 * Removed: the Today in Sky and Fortune Cookie widgets. Neither ever rendered anything, because the service behind them was never published. A page that still carries one shows nothing in its place, as before.
 
@@ -46,3 +53,8 @@ This is an addon: it requires the free **AstroWay** plugin (0.6.4 or newer) and 
 
 = 0.1.0 =
 * Initial release. Seven Elementor widgets wrapping AstroWay core shortcodes (natal, bodygraph, daily horoscope, Tarot, moon phase, today in sky, fortune cookie).
+
+== Upgrade Notice ==
+
+= 0.2.0 =
+AstroWay 2.5 has these widgets built in. After updating AstroWay, you can delete this addon.
